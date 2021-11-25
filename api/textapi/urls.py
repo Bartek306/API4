@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import string
+from .views import archive_convert
 
 urlpatterns = [
-    path('string', string)
+    path('archive_convert', archive_convert)
+
 ]
